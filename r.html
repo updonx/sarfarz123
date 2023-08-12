@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background: rgb(51, 116, 153);
+    }
+</style>
+</head>
+<body>
+<div> 
+    <!-- <h1>would you like sir</h1>
+    <ul>
+        <li>name</li>
+        <li>namkeen</li>
+        <li>dal</li>
+        <li>raita</li>
+        <li>alo</li>
+    </ul> -->
+<form action="p" class="raj">
+    
+    <input type="email" name="userid" id="email" placeholder="email">
+    
+    
+    <input type="password" name="userpass" id="pas" placeholder="Password" required>
+    
+    <button class="bt">submit</button>
+    
+    
+            
+
+</form>
+   <!-- <button class="bt">submit</button>
+div> -->
+<script>
+//     let a=document.querySelector('.bt')
+//     a.addEventListener('click', function(){
+//  console.log("your order is done")
+//     })
+//   // Select all <li> elements
+// var liElements = document.querySelectorAll('li');
+
+// // Add a click event listener to each <li> element
+// liElements.forEach(function(li) {
+//     li.addEventListener('click', function(e) {
+//        // console.log(li); // Log the clicked <li> element
+//         // console.log(e.target); // You can also log the event target
+
+//         li.style.color = 'red'; // Change the col
+
+// });
+// 
+//let bt=document.querySelector('bt')
+// const ul=document.querySelector('ul')
+// let bt=document.querySelector('.bt')
+// bt.addEventListener('click',function(){
+//     let li=document.createElement('h2')
+//     li.textContent="i am next button"
+//     ul.append(li)
+// })
+//         const ul=document.querySelector('ul')
+//         ul.addEventListener("click",function(e){
+// console.log(e.target)
+//         })
+    
+let f=document.querySelector('.raj')
+// let email=document.querySelector('#userid')
+// let password=document.querySelector('#pas')
+f.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    console.log(f.userid.value,f.userpass.value)
+})
+
+</script>
+</body>
+</html>
